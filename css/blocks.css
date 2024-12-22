@@ -1,0 +1,22 @@
+@import './variables.css';
+
+body {
+    min-height: 100svh;
+}
+
+header {
+    background-color: var(--app-clr);
+    padding-block: .5rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    min-height: calc(100svh - 5rem);
+}
+
+.sidebar {
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--app-clr);
+}

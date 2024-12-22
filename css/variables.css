@@ -1,0 +1,9 @@
+:root {
+    --bg-clr: hsl(180, 33%, 15%);
+    --app-clr: beige;
+}
+
+body {
+    background-color: var(--bg-clr);
+    color: var(--bg-clr);
+}
