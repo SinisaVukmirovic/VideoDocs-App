@@ -2,21 +2,57 @@
 
 body {
     min-height: 100svh;
+    
+    overflow: hidden;
 }
 
 header {
     background-color: var(--app-clr);
-    padding-block: .5rem;
+    height: var(--header-height);
+    display: grid;
+    place-items: center;
 }
 
 main {
     display: grid;
     grid-template-columns: 1fr auto;
-    min-height: calc(100svh - 5rem);
+    height: calc(100svh - var(--header-height));
+
+    & .panel,
+    .sidebar {
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+
+    & .panel {
+        display: grid;
+        overflow-y: scroll;
+
+        & div {
+            margin-block: 1rem;
+            padding: 1rem;
+            background-color: red;
+        }
+    }
+
+    & .sidebar {
+        max-height: calc(100svh - var(--header-height));
+        padding-inline: 1rem;
+        text-align: center;
+        background-color: var(--app-clr);
+
+
+        & ul {
+            text-align: right;
+            list-style-type: none;
+        }
+
+        & .headline {
+            position: sticky;
+            top: 0;
+            padding: .5rem;
+            background-color: var(--app-clr);
+        }
+    }
 }
 
-.sidebar {
-    padding: 1rem;
-    text-align: center;
-    background-color: var(--app-clr);
-}

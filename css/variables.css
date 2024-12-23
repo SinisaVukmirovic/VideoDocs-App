@@ -1,6 +1,7 @@
 :root {
     --bg-clr: hsl(180, 33%, 15%);
     --app-clr: beige;
+    --header-height: 3rem;
 }
 
 body {
