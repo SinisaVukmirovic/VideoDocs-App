@@ -1,5 +1,4 @@
-// import createTopicsList from './createTopicsList.js';
+// import './createTopicsValues.js';
+import populateTopicsList from './populateTopicsList.js';
 
-// createTopicsList();
-
-import './createTopicsList.js';
+populateTopicsList();

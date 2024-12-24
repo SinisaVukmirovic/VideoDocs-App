@@ -6,12 +6,11 @@ const getTopicsValues = () => {
     let allTopics = [];
 
     videoDocsData.forEach(data => {
-        allTopics = [...allTopics, data.topic]
+        allTopics = [...allTopics, data.topic];
     });
 
     makeUniqueTopicsValues(allTopics);
 }
-
 const makeUniqueTopicsValues = (allTopics) => {
     const uniqueTopicsValues = new Set(allTopics);
 
@@ -23,4 +22,5 @@ const handleSortingOfTopics = (uniqueTopicsValues) => {
 }
 
 getTopicsValues();
-console.log(sortedTopics)
+
+export default sortedTopics;
