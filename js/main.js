@@ -1,3 +1,5 @@
-import createTopicsList from './createTopicsList.js';
+// import createTopicsList from './createTopicsList.js';
 
-createTopicsList()
+// createTopicsList();
+
+import './createTopicsList.js';

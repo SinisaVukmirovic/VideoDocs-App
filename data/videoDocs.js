@@ -22,4 +22,11 @@ const videoDocsData = [
         title: 'CSS Subgrid Layouts Are Here!',
         author: 'Dmitry Mayorov'
     },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=wgYx_8SoiUY',
+        thumbnail: 'https://i.ytimg.com/vi/wgYx_8SoiUY/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDJB0m8iI3QN1ORsuNO2P-C6m4AeQ',
+        topic: 'clean code',
+        title: 'How to write clean code',
+        author: 'Scrimba'
+    },
 ];
