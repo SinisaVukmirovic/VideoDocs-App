@@ -22,11 +22,11 @@ main {
     .sidebar {
         overflow: scroll;
         overflow-x: hidden;
+        overflow-y: auto;
     }
 
     & .panel {
         display: grid;
-        overflow-y: scroll;
         padding: 1rem 2rem;
 
         & .subheadline {
