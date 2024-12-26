@@ -29,4 +29,18 @@ const videoDocsData = [
         title: 'How to write clean code',
         author: 'Scrimba'
     },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=zNXQS2DfckU',
+        thumbnail: 'https://i.ytimg.com/an_webp/zNXQS2DfckU/mqdefault_6s.webp?du=3000&sqp=CMz2trsG&rs=AOn4CLBuWEpsIoxtb-E03mr1GkzlJgcjEg',
+        topic: 'three.js',
+        title: 'Amazing 3D Animation Website with Three.Js So Eazy',
+        author: 'Lun Dev Code'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=zNXQS2DfckU',
+        thumbnail: 'https://i.ytimg.com/an_webp/zNXQS2DfckU/mqdefault_6s.webp?du=3000&sqp=CMz2trsG&rs=AOn4CLBuWEpsIoxtb-E03mr1GkzlJgcjEg',
+        topic: 'GSAP',
+        title: 'Amazing 3D Animation Website with Three.Js So Eazy',
+        author: 'Lun Dev Code'
+    },
 ];

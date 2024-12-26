@@ -10,3 +10,19 @@
     scrollbar-gutter: stable;
 }
 
+/* Custom scroll bars style */
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    background: red;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: yellow;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #111; 
+}

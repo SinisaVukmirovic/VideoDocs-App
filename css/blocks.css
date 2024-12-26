@@ -27,7 +27,7 @@ main {
 
     & .panel {
         display: grid;
-        padding: 1rem 2rem;
+        padding: 1rem 1rem 1rem 2rem;
 
         & .subheadline {
             color: var(--app-clr);
@@ -36,14 +36,24 @@ main {
 
     & .sidebar {
         max-height: calc(100svh - var(--header-height));
-        padding-inline: 1rem;
         text-align: center;
         background-color: var(--app-clr);
 
 
         & .topics {
+            padding-inline: 1rem;
             text-align: right;
             list-style-type: none;
+
+            & li {
+                padding: .25rem .75rem;
+                margin-block: .2rem;
+                border-radius: .25rem;
+                cursor: pointer;
+            }
+            & li:hover {
+                outline: 2px solid var(--bg-clr);
+            }
         }
 
         & .headline {
