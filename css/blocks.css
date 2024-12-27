@@ -35,9 +35,11 @@ main {
         & .video-doc-card {
             text-decoration: none;
             display: grid;
-            grid-template-columns: 3fr 2fr;
-            padding: .25rem;
-            border-radius: .25rem;
+            grid-template-columns: 1fr 3fr;
+            gap: 1rem;
+            align-items: center;
+            padding: .3rem;
+            border-radius: .5rem;
             background-color: var(--app-clr);
 
             & .info {
@@ -46,10 +48,16 @@ main {
                 color: var(--bg-clr);
             }
 
-            & img {
-                object-fit: contain;
-                width: 100%;
+            & .thumbnail {
+                overflow: hidden;
+                border-radius: calc(.5rem - .3rem);
+
+                & img {
+                    max-width: 100%;
+                }
             }
+
+
 
 }
 

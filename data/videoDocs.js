@@ -38,7 +38,7 @@ const videoDocsData = [
     },
     {
         videoUrl: 'https://www.youtube.com/watch?v=zNXQS2DfckU',
-        thumbnail: 'https://i.ytimg.com/an_webp/zNXQS2DfckU/mqdefault_6s.webp?du=3000&sqp=CMz2trsG&rs=AOn4CLBuWEpsIoxtb-E03mr1GkzlJgcjEg',
+        thumbnail: 'https://i.ytimg.com/an_webp/JN-nme9oF10/mqdefault_6s.webp?du=3000&sqp=CM_WvLsG&rs=AOn4CLCb13cL0ao3MPwpcncH6PAfqOw5VA',
         topic: 'GSAP',
         title: 'Amazing 3D Animation Website with Three.Js So Eazy',
         author: 'Lun Dev Code'
