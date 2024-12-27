@@ -18,7 +18,8 @@ const makeUniqueTopicsValues = (allTopics) => {
 }
 
 const handleSortingOfTopics = (uniqueTopicsValues) => {
-    sortedTopics = Array.from(uniqueTopicsValues).sort();
+    sortedTopics = Array.from(uniqueTopicsValues)
+                .sort((a, b) => a.toLowerCase() > b.toLowerCase() ? 1 : -1);
 }
 
 getTopicsValues();

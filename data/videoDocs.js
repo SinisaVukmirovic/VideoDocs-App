@@ -11,7 +11,7 @@ const videoDocsData = [
     {
         videoUrl: 'https://www.youtube.com/watch?v=k7-N8R0-KY4',
         thumbnail: 'https://i.ytimg.com/an_webp/k7-N8R0-KY4/mqdefault_6s.webp?du=3000&sqp=COKbq7sG&rs=AOn4CLD5v_oPiRDAmjTDd-vhL9ySmXZc3g',
-        topic: 'recursion',
+        topic: 'Recursion',
         title: 'Recursion - Part 7 of Functional Programming in JavaScript',
         author: 'Fun Fun Function'
     },
@@ -25,14 +25,14 @@ const videoDocsData = [
     {
         videoUrl: 'https://www.youtube.com/watch?v=wgYx_8SoiUY',
         thumbnail: 'https://i.ytimg.com/vi/wgYx_8SoiUY/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDJB0m8iI3QN1ORsuNO2P-C6m4AeQ',
-        topic: 'clean code',
+        topic: 'Clean code',
         title: 'How to write clean code',
         author: 'Scrimba'
     },
     {
         videoUrl: 'https://www.youtube.com/watch?v=zNXQS2DfckU',
         thumbnail: 'https://i.ytimg.com/an_webp/zNXQS2DfckU/mqdefault_6s.webp?du=3000&sqp=CMz2trsG&rs=AOn4CLBuWEpsIoxtb-E03mr1GkzlJgcjEg',
-        topic: 'three.js',
+        topic: 'Three.js',
         title: 'Amazing 3D Animation Website with Three.Js So Eazy',
         author: 'Lun Dev Code'
     },
@@ -42,5 +42,12 @@ const videoDocsData = [
         topic: 'GSAP',
         title: 'Amazing 3D Animation Website with Three.Js So Eazy',
         author: 'Lun Dev Code'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=fF_NVrd1s14',
+        thumbnail: 'https://i.ytimg.com/an_webp/fF_NVrd1s14/mqdefault_6s.webp?du=3000&sqp=CJiwvLsG&rs=AOn4CLBqBkdE9Wx5FP188f18u2mTNeel5g',
+        topic: 'position',
+        title: 'CSS position deep dive',
+        author: 'Kevin Powell'
     },
 ];

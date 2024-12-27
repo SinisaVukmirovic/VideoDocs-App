@@ -27,18 +27,41 @@ main {
 
     & .panel {
         display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        place-items: start;
+        gap: 2rem;
         padding: 1rem 1rem 1rem 2rem;
 
-        & .subheadline {
+        & .video-doc-card {
+            text-decoration: none;
+            display: grid;
+            grid-template-columns: 3fr 2fr;
+            padding: .25rem;
+            border-radius: .25rem;
+            background-color: var(--app-clr);
+
+            & .info {
+                display: grid;
+                grid-template-rows: 1fr 2fr 1fr;
+                color: var(--bg-clr);
+            }
+
+            & img {
+                object-fit: contain;
+                width: 100%;
+            }
+
+}
+
+        /* & .subheadline {
             color: var(--app-clr);
-        }
+        } */
     }
 
     & .sidebar {
         max-height: calc(100svh - var(--header-height));
         text-align: center;
         background-color: var(--app-clr);
-
 
         & .topics {
             padding-inline: 1rem;
@@ -64,4 +87,3 @@ main {
         }
     }
 }
-
