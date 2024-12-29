@@ -2,6 +2,7 @@
     --bg-clr: hsl(180, 33%, 15%);
     --app-clr: bisque;
     --header-height: 3rem;
+    --secondary-text: #444;
 }
 
 body {

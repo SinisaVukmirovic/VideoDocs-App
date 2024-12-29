@@ -2,9 +2,10 @@
 
 body {
     min-height: 100svh;
-    
     /* overflow: hidden; */
-
+    font-family: "Titillium Web", serif;
+    font-weight: 400;
+    font-style: normal;
     text-rendering: optimizeSpeed;
 }
 
@@ -39,7 +40,7 @@ main {
         grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
         grid-auto-rows: min-content;
         gap: 1rem;
-        padding: 1rem;
+        padding: 1.5rem;
 
 
         & .video-doc-card {
@@ -48,26 +49,42 @@ main {
             flex-direction: column;
             align-items: center;
             background-color: var(--app-clr);   
-            padding: .75rem .5rem .25rem;
+            padding: .75rem .5rem .5rem;
             border-radius: .5rem;
             transition: scale .2s ease-in-out;
+            box-shadow: inset 0 0 30px 4px var(--bg-clr);
 
             & .topic {
                 font-size: 1.75rem;
+
+                font-family: "Lacquer", serif;
+                font-weight: 400;
+                font-style: normal;
+                font-weight: bold;
             }
 
             & .author {
-                margin-top: .2rem;
+                margin-top: .25rem;
+                font-weight: normal;
+                color: var(--secondary-text);
+                font-size: 1.1rem;
             }
 
             & .title {
                 text-align: center;
                 margin-block: auto;
                 padding-block: .5rem;
+
+                font-family: "Lacquer", serif;
+                font-weight: 400;
+                font-style: italic;
             }
 
             & .duration {
                 margin-top: auto;
+                font-weight: normal;
+                color: var(--secondary-text);
+                font-size: 1rem;
             }
         }
         .video-doc-card:hover {
