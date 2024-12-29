@@ -51,14 +51,14 @@ const videoDocsData = [
         duration: '28m'
     },
     {
-        videoUrl: 'https://www.youtube.com/watch?v=fF_NVrd1s14',
+        videoUrl: 'https://www.youtube.com/watch?v=2rlWBZ17Wes',
         topic: 'Media query',
         author: 'Kevin Powell',
         title: 'Learn how to use Media queries & Container queries',
         duration: '35m'
     },
     {
-        videoUrl: 'https://www.youtube.com/watch?v=fF_NVrd1s14',
+        videoUrl: 'https://www.youtube.com/watch?v=2rlWBZ17Wes',
         topic: 'Container query',
         author: 'Kevin Powell',
         title: 'Learn how to use Media queries & Container queries',

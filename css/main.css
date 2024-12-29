@@ -10,6 +10,10 @@
     scrollbar-gutter: stable;
 }
 
+a:visited {
+    color: inherit;
+}
+
 /* Custom scroll bars style */
 /* width */
 ::-webkit-scrollbar {

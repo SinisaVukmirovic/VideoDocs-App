@@ -1,6 +1,7 @@
 import sortedTopics from './createTopicsValues.js';
+import { topicsListElem } from './DOMElements.js';
 
-const topicsListElem = document.querySelector('[data-topics]');
+// const topicsListElem = document.querySelector('[data-topics]');
 
 export default function populateTopicsList() {
     sortedTopics.forEach(topic => {
