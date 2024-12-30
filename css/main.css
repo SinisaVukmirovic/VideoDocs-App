@@ -7,7 +7,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    scrollbar-gutter: stable;
 }
 
 a:visited {
@@ -18,15 +17,15 @@ a:visited {
 /* width */
 ::-webkit-scrollbar {
     width: 5px;
-    background: red;
+    background: var(--app-clr);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: yellow;
+    background: var(--bg-clr);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #111; 
+    background: yellow; 
 }
