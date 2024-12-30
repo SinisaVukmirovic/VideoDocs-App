@@ -17,10 +17,12 @@ header {
 
     & h1 {
         word-spacing: -.5rem;
+        font-weight: lighter;
     }
 
     & h1 span {
         color: var(--accent-clr);
+        font-weight: bold;
     }
 }
 
@@ -68,20 +70,21 @@ main {
             }
 
             & .author {
-                margin-top: .25rem;
+                margin-top: .3rem;
                 font-weight: normal;
                 color: var(--accent-clr);
-                font-size: 1.1rem;
+                font-size: 1.2rem;
             }
 
             & .title {
                 text-align: center;
                 margin-block: auto;
-                padding-block: .5rem;
-
+                padding-block: .7rem;
                 font-family: "Lacquer", serif;
                 font-weight: 400;
                 font-style: italic;
+                font-size: 1.3rem;
+
             }
 
             & .duration {
@@ -115,6 +118,14 @@ main {
         text-align: center;
         background-color: var(--app-clr);
 
+        & .headline {
+            position: sticky;
+            top: 0;
+            padding-block: 0 .5rem;
+            background-color: var(--app-clr);
+            color: var(--accent-clr);
+        }
+
         & .topics {
             padding-inline: 1rem;
             text-align: right;
@@ -129,14 +140,14 @@ main {
             & li:hover {
                 outline: 2px solid var(--bg-clr);
             }
+
+            & .js-selected {
+                background-color: var(--bg-clr);
+                color: var(--app-clr);
+            }
         }
 
-        & .headline {
-            position: sticky;
-            top: 0;
-            padding-block: 0 .5rem;
-            background-color: var(--app-clr);
-            color: var(--accent-clr);
-        }
+
     }
 }
+

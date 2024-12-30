@@ -78,4 +78,46 @@ const videoDocsData = [
         title: 'The CSS Display Property is Changing Forever',
         duration: '15m'
     },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=TOTUXiYZhf4',
+        topic: 'Svelte',
+        author: 'Joy of Code',
+        title: 'Svelte Runes Change How Reactivity Works In Svelte',
+        duration: '9m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=VeNfHj6MhgA',
+        topic: 'Vue',
+        author: 'Traversy Media',
+        title: 'Vue.js Crash Course 2024',
+        duration: '2h 57m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=-st14lUQD3U',
+        topic: 'width',
+        author: 'Kevin Powell',
+        title: "CSS width auto vs 100% | What's the difference?",
+        duration: '2m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=SjYYfd7obug',
+        topic: 'height',
+        author: 'Kevin Powell',
+        title: "What's the deal with height: auto?",
+        duration: '6m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=eQXG75XirdE',
+        topic: 'Astro',
+        author: 'Coding in Public',
+        title: 'Astro 5.0 Crash Course',
+        duration: '28m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=NwnZU6mWJkk',
+        topic: 'Overlay',
+        author: 'Kevin Powell',
+        title: 'Add an overlay to a background-image with one line of CSS',
+        duration: '6m'
+    },
 ];

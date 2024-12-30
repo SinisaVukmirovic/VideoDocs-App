@@ -16,16 +16,16 @@ a:visited {
 /* Custom scroll bars style */
 /* width */
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 6px;
     background: var(--app-clr);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: var(--bg-clr);
+    background: var(--accent-clr);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: yellow; 
+    background: var(--bg-clr); 
 }

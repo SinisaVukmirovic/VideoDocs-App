@@ -1,9 +1,9 @@
 :root {
     --bg-clr: hsl(180, 33%, 15%);
     --app-clr: hsl(33, 100%, 88%);
-    --header-height: 3rem;
-
     --accent-clr: hsl(205, 30%, 39%);
+    
+    --header-height: 3rem;
 }
 
 body {
