@@ -120,4 +120,25 @@ const videoDocsData = [
         title: 'Add an overlay to a background-image with one line of CSS',
         duration: '6m'
     },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=pixfH6yyqZk',
+        topic: 'Scraping',
+        author: 'MPJ and David',
+        title: 'Web Scraping with Node.js & Puppeteer',
+        duration: '42m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=XMu46BRPLqA',
+        topic: 'Scraping',
+        author: 'Traversy Media',
+        title: 'Ultimate Guide To Web Scraping - Puppeteer',
+        duration: '34m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=RVnxF3j3N8U',
+        topic: 'Svelte',
+        author: 'Rich Harris',
+        title: 'Svelte 5: Introducing Runes...',
+        duration: '13m'
+    },
 ];
