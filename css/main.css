@@ -29,3 +29,9 @@ a:visited {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--bg-clr); 
 }
+
+
+
+.test-hidden {
+    visibility: hidden;
+}

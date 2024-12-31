@@ -38,9 +38,7 @@ main {
         place-items: start; */
         
         scrollbar-gutter: stable;
-        
         overflow-y: auto;
-        /* scrollbar-width: none; */
 
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
@@ -59,7 +57,7 @@ main {
             padding: .75rem .5rem .5rem;
             border-radius: .5rem;
             transition: scale .2s ease-in-out;
-            box-shadow: inset 0 0 25px 3px var(--bg-clr);
+            box-shadow: inset 0 0 20px 3px var(--bg-clr);
 
             & .topic {
                 font-size: 1.75rem;
@@ -114,13 +112,13 @@ main {
         overflow-y: auto;
         height: calc(100svh - var(--header-height));
         max-height: calc(100svh - var(--header-height));
-        text-align: center;
         background-color: var(--app-clr);
-
+        
         & .headline {
             position: sticky;
             top: 0;
-            padding-block: 0 .5rem;
+            text-align: center;
+            padding-bottom: .25rem;
             background-color: var(--app-clr);
             color: var(--accent-clr);
         }
@@ -131,12 +129,13 @@ main {
             list-style-type: none;
 
             & li {
+                font-weight: bold;
                 padding: .2rem .7rem;
                 margin-block: .2rem;
                 border-radius: .25rem;
                 cursor: pointer;
 
-                & .js-selected {
+                &.js-selected {
                     pointer-events: none;
                     background-color: var(--bg-clr);
                     color: var(--app-clr);
