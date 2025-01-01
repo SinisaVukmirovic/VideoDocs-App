@@ -1,4 +1,5 @@
 import { topicsListElem, panelElem } from './DOMElements.js';
+import updateStyleOfSelectedTopic from './updateStyleOfSelectedTopic.js';
 
 export default function filterBySelectedTopic() {
     // getting elems from the DOM after they've been generated
@@ -9,25 +10,32 @@ export default function filterBySelectedTopic() {
             updateStyleOfSelectedTopic(e.target);
 
             const selectedTopic = e.target.getAttribute('data-topic');
-            filterVideoDocCards(selectedTopic);
+            
+            // filterVideoDocCards(selectedTopic);
+
+            // Fallback for browsers that don't support view transitions:
+            if (!document.startViewTransition) {
+                filterVideoDocCards(selectedTopic);
+                return;
+            }
+            document.startViewTransition(() => filterVideoDocCards(selectedTopic));
         });
     });
 
-    const updateStyleOfSelectedTopic = (selectedTopic) => {
-        topicsListElem.querySelector('.js-selected').classList.remove('js-selected');
-        selectedTopic.classList.add('js-selected');
-    }
+    // const updateStyleOfSelectedTopic = (selectedTopic) => {
+    //     topicsListElem.querySelector('.js-selected').classList.remove('js-selected');
+    //     selectedTopic.classList.add('js-selected');
+    // }
 
     // getting elems from the DOM after they've been generated
     const videoDocCards = panelElem.querySelectorAll('[data-topic]');
-    // videoDocCards.forEach(card => console.log(card.getAttribute('data-topic')))
 
     const filterVideoDocCards = (selectedTopic) => {
         videoDocCards.forEach(card => {
             const cardTopic = card.getAttribute('data-topic');
-            console.log('card:', cardTopic, 'list:', selectedTopic)
 
             if (selectedTopic === cardTopic) {
+                // changing display value because hidden attribute is not working on display grid or flex elements
                 card.removeAttribute('hidden');
             } else {
                 card.setAttribute('hidden', true);

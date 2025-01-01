@@ -6,7 +6,7 @@ let viewTransitionCounter = 0;
 export default function populateVideoDocsPanel() {
     videoDocsData.forEach(data => {
         panelElem.innerHTML += `
-            <a href=${data.videoUrl} target="_blank" data-topic=${data.topic} class="video-doc-card" 
+            <a href=${data.videoUrl} target="_blank" data-topic='${data.topic}'   class="video-doc-card" 
             style="view-transition-name: videoDocCard-${++viewTransitionCounter}">
                 <h3 class="topic">${data.topic}</h3>
                 <h4 class="author">by ${data.author}</h4>

@@ -9,6 +9,15 @@
     padding: 0;
 }
 
+html::view-transition-group(*) {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+  
+    animation-duration: .5s;
+    animation-fill-mode: both;
+}
+
 a:visited {
     color: inherit;
 }
@@ -28,10 +37,4 @@ a:visited {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: var(--bg-clr); 
-}
-
-
-
-.test-hidden {
-    visibility: hidden;
 }

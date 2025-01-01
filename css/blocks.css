@@ -103,6 +103,10 @@ main {
         .video-doc-card:hover {
             scale: .98;
         }
+        /* required since hidden attribute is not working on display flex or grid elems */
+        .video-doc-card[hidden] {
+            display: none;
+        }
     }
 
     & .sidebar {

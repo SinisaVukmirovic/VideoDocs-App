@@ -141,4 +141,32 @@ const videoDocsData = [
         title: 'Svelte 5: Introducing Runes...',
         duration: '13m'
     },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=Yl8hg2FG20Q',
+        topic: 'subgrid',
+        author: 'Slaying The Dragon',
+        title: 'Learn CSS Subgrid in 14 minutes',
+        duration: '14m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=wUJZCMhO0mA',
+        topic: 'grid',
+        author: 'Dmitry Mayorov',
+        title: 'Building an Article Layout with CSS Grid—Worth It?',
+        duration: '20m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=UQqY3_6Epbg&list=PLZlA0Gpn_vH9kocFX7R7BAe_CvvOCO_p9',
+        topic: 'Clean Code',
+        author: 'Web Dev Simplified',
+        title: 'SOLID Design Principles',
+        duration: '47m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=2sQ9xiEAXNo',
+        topic: 'fetch',
+        author: 'Steve Griffith',
+        title: 'Ten Steps to Mastering the Fetch API',
+        duration: '2h 20m'
+    }
 ];
