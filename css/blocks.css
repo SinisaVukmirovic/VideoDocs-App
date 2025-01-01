@@ -7,6 +7,8 @@ body {
     font-weight: 400;
     font-style: normal;
     text-rendering: optimizeSpeed;
+    /* ?!?! custom mouse cursor breaks app in chrome? */
+     /* cursor: url('../assets/chalk-2.png'), auto; */
 }
 
 header {
@@ -57,9 +59,10 @@ main {
             padding: .75rem .5rem .5rem;
             border-radius: .5rem;
             transition: scale .2s ease-in-out;
-            box-shadow: inset 0 0 20px 3px var(--bg-clr);
+            box-shadow: inset 0 0 25px 3px var(--bg-clr);
 
             & .topic {
+                color: var(--bg-clr);
                 font-size: 1.75rem;
 
                 font-family: "Lacquer", serif;
@@ -75,6 +78,7 @@ main {
             }
 
             & .title {
+                color: var(--bg-clr);
                 text-align: center;
                 margin-block: auto;
                 padding-block: .7rem;
@@ -101,7 +105,7 @@ main {
             }
         }
         .video-doc-card:hover {
-            scale: .98;
+            scale: 1.02;
         }
         /* required since hidden attribute is not working on display flex or grid elems */
         .video-doc-card[hidden] {
@@ -134,7 +138,7 @@ main {
 
             & li {
                 font-weight: bold;
-                padding: .2rem .7rem;
+                padding: .1rem .5rem;
                 margin-block: .2rem;
                 border-radius: .25rem;
                 cursor: pointer;

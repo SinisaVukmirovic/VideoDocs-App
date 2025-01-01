@@ -34,7 +34,7 @@ export default function filterBySelectedTopic() {
         videoDocCards.forEach(card => {
             const cardTopic = card.getAttribute('data-topic');
 
-            if (selectedTopic === cardTopic) {
+            if (selectedTopic.toLowerCase() === cardTopic.toLowerCase()) {
                 // changing display value because hidden attribute is not working on display grid or flex elements
                 card.removeAttribute('hidden');
             } else {

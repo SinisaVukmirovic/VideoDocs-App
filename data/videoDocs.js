@@ -157,7 +157,7 @@ const videoDocsData = [
     },
     {
         videoUrl: 'https://www.youtube.com/watch?v=UQqY3_6Epbg&list=PLZlA0Gpn_vH9kocFX7R7BAe_CvvOCO_p9',
-        topic: 'Clean Code',
+        topic: 'Clean code',
         author: 'Web Dev Simplified',
         title: 'SOLID Design Principles',
         duration: '47m'
