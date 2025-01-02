@@ -8,6 +8,8 @@ ___
 
 #### Found out that "hidden" attribute is not working on elements that are displayed as grid or flex...
 
+##### Trying to use custom mouse cursor crashes app on Chrome for some reason...
+
 
 
 to do

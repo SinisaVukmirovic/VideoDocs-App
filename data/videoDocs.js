@@ -168,5 +168,33 @@ const videoDocsData = [
         author: 'Steve Griffith',
         title: 'Ten Steps to Mastering the Fetch API',
         duration: '2h 20m'
+    },
+    {
+        videoUrl: 'https://www.coltsteele.com/tutorials/mastering-css-grid',
+        topic: 'grid',
+        author: 'Colt Steele',
+        title: 'Mastering CSS Grid',
+        duration: 'unknown'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=e6jnl3iAezM',
+        topic: 'Gradients',
+        author: 'Colt Steele',
+        title: 'Everything You Need To Know About CSS Gradients',
+        duration: '10m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=qZv-rNx0jEA',
+        topic: 'flex',
+        author: 'Colt Steele',
+        title: 'The Ultimate CSS3 Flexbox Tutorial',
+        duration: '50m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=USjZcfj8yxE',
+        topic: 'GIT',
+        author: 'Colt Steele',
+        title: 'Learn Git In 15 Minutes',
+        duration: '16m'
     }
 ];

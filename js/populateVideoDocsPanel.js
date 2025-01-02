@@ -1,10 +1,14 @@
 import { videoDocsData } from '../data/videoDocs.js';
 import { panelElem } from './DOMElements.js';
+import shuffle from './shuffle.js';
 
 let viewTransitionCounter = 0;
 
 export default function populateVideoDocsPanel() {
-    videoDocsData.forEach(data => {
+    // shuffling videoDocs data to make it interesting with a order on each load
+    const shuffledVideoDocsData = shuffle(videoDocsData);
+
+    shuffledVideoDocsData.forEach(data => {
         panelElem.innerHTML += `
             <a href=${data.videoUrl} target="_blank" data-topic='${data.topic}'   class="video-doc-card" 
             style="view-transition-name: videoDocCard-${++viewTransitionCounter}">
