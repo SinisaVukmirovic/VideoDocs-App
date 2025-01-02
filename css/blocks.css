@@ -14,17 +14,36 @@ body {
 header {
     height: var(--header-height);
     background-color: var(--app-clr);
-    display: grid;
-    place-items: center;
+    display: flex;
+    align-items: center;
+    padding-inline: calc(1rem + 6px);
 
-    & h1 {
+    & h1.app-title {
         word-spacing: -.5rem;
         font-weight: lighter;
+        margin-inline: auto;
     }
 
     & h1 span {
         color: var(--accent-clr);
         font-weight: bold;
+    }
+
+    & input {
+        padding: .25rem 2rem;
+        width: 20rem;
+        border: 2px solid var(--accent-clr);
+        border-radius: 10rem;
+        font-size: 1.1rem;
+        background-color: var(--bg-clr);
+        color: var(--app-clr);
+    }
+
+    & svg {
+        width: 1.3rem;
+        aspect-ratio: 1 / 1;
+        color: var(--app-clr);
+        transform: translateX(1.75rem);
     }
 }
 
