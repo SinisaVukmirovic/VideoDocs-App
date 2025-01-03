@@ -14,9 +14,12 @@ body {
 header {
     height: var(--header-height);
     background-color: var(--app-clr);
+    padding-inline: calc(1rem + 6px);
+    border-bottom: 3px solid var(--bg-clr);
     display: flex;
     align-items: center;
-    padding-inline: calc(1rem + 6px);
+
+    /* justify-content: center; */
 
     & h1.app-title {
         word-spacing: -.5rem;
@@ -31,8 +34,8 @@ header {
 
     & input {
         padding: .25rem 2rem;
-        width: 20rem;
-        border: 2px solid var(--accent-clr);
+        width: 15rem;
+        /* border: 3px solid var(--accent-clr); */
         border-radius: 10rem;
         font-size: 1.1rem;
         background-color: var(--bg-clr);
@@ -90,7 +93,7 @@ main {
             }
 
             & .author {
-                margin-top: .3rem;
+                margin-top: .2rem;
                 font-weight: normal;
                 color: var(--accent-clr);
                 font-size: 1.2rem;
@@ -162,7 +165,12 @@ main {
                 border-radius: .25rem;
                 cursor: pointer;
 
-                &.js-selected {
+                /* &.js-selected {
+                    pointer-events: none;
+                    background-color: var(--bg-clr);
+                    color: var(--app-clr);
+                } */
+                &[aria-current="true"] {
                     pointer-events: none;
                     background-color: var(--bg-clr);
                     color: var(--app-clr);

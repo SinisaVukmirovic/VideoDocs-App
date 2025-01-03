@@ -156,7 +156,7 @@ const videoDocsData = [
         duration: '20m'
     },
     {
-        videoUrl: 'https://www.youtube.com/watch?v=UQqY3_6Epbg&list=PLZlA0Gpn_vH9kocFX7R7BAe_CvvOCO_p9',
+        videoUrl: 'https://www.youtube.com/playlist?list=PLZlA0Gpn_vH9kocFX7R7BAe_CvvOCO_p9',
         topic: 'Clean code',
         author: 'Web Dev Simplified',
         title: 'SOLID Design Principles',
@@ -196,5 +196,47 @@ const videoDocsData = [
         author: 'Colt Steele',
         title: 'Learn Git In 15 Minutes',
         duration: '16m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=DHj7JhH8ins',
+        topic: 'Container query',
+        author: 'Kevin Powell',
+        title: '"Smart" design patterns with container queries',
+        duration: '15m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/playlist?list=PL4cUxeGkcC9jS4SctqK83Ag58a0_UEcE_',
+        topic: 'Cascade layers',
+        author: 'Net Ninja',
+        title: 'CSS Cascade Layers',
+        duration: '28m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/playlist?list=PLu8EoSxDXHP5CIFvt9-ze3IngcdAc2xKG',
+        topic: 'grid',
+        author: 'Wes Bos',
+        title: 'CSS Grid',
+        duration: '28m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/playlist?list=PL4cUxeGkcC9gUxtblNUahcsg0WLxmrK_y',
+        topic: 'GraphQL',
+        author: 'Net Ninja',
+        title: 'GraphQL Crash Course',
+        duration: '1h 30m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/playlist?list=PL4-IK0AVhVjP0EeV513_b30lhGRTfMbYd',
+        topic: 'SVG',
+        author: 'Kevin Powell',
+        title: 'A beginners guide to SVG',
+        duration: '2h 13m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=UTHgr6NLeEw',
+        topic: 'SVG',
+        author: 'Fireship',
+        title: 'Make Awesome SVG Animations with CSS // 7 Useful Techniques',
+        duration: '12m'
     }
 ];
