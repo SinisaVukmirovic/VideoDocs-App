@@ -122,14 +122,14 @@ const videoDocsData = [
     },
     {
         videoUrl: 'https://www.youtube.com/watch?v=pixfH6yyqZk',
-        topic: 'Scraping',
+        topic: 'Web Scraping',
         author: 'MPJ and David',
         title: 'Web Scraping with Node.js & Puppeteer',
         duration: '42m'
     },
     {
         videoUrl: 'https://www.youtube.com/watch?v=XMu46BRPLqA',
-        topic: 'Scraping',
+        topic: 'Web Scraping',
         author: 'Traversy Media',
         title: 'Ultimate Guide To Web Scraping - Puppeteer',
         duration: '34m'
@@ -238,5 +238,12 @@ const videoDocsData = [
         author: 'Fireship',
         title: 'Make Awesome SVG Animations with CSS // 7 Useful Techniques',
         duration: '12m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=DCZdCKjnBCs&list=PLu8EoSxDXHP5CIFvt9-ze3IngcdAc2xKG&index=26',
+        topic: 'grid',
+        author: 'Wes Bos',
+        title: 'CSS Grid in 45 Minutes!',
+        duration: '45m'
     }
 ];

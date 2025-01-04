@@ -10,13 +10,10 @@ ___
 
 #### Found out that "hidden" attribute is not working on elements that are displayed as grid or flex...
 
-##### Trying to use custom mouse cursor crashes app on Chrome for some reason...
+##### Trying to use custom mouse cursor crashes the app on Chrome for some reason...
 
 
 
 to do
 filter by search term
 desktop only app overlay for smaller screens
-custom cursor maybe
-
-correct z index on controls in gents fashion app + tuck in pointer left styles
