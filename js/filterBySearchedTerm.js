@@ -1,22 +1,31 @@
 import { panelElem, searchInputElem } from './DOMElements.js';
 
 searchInputElem.addEventListener('keypress', (e) => {
-    e.preventDefault();
-
     if (e.key === 'Enter') {
-        console.log(searchInputElem.value);
+        e.preventDefault();
+
+        const searchTerm = searchInputElem.value;
+
+        if (!document.startViewTransition) {
+            filterVideoDocCards(selectedTopic);
+            return;
+        }
+        document.startViewTransition(() => filterVideoDocCards(searchTerm));
     }
 });
-searchInputElem.value = '';
-
-// export default function filterBySearchTerm(e) {
-        
-    //     const searchTerm = searchInputElem.value;
-
-    // const topics = topicsListElem.querySelectorAll('[data-topic]');
 
 
+const filterVideoDocCards = (searchTerm) => {
+    const videoDocCards = panelElem.querySelectorAll('[data-topic]');
 
-    // const searchTerm = searchInputElem.value;
-    // console.log(searchTerm)
-// }
+    videoDocCards.forEach(card => {
+        const cardTopic = card.getAttribute('data-topic');
+
+        if (cardTopic.toLowerCase().includes(searchTerm.toLowerCase())) {
+            // changing display value because hidden attribute is not working on display grid or flex elements
+            card.removeAttribute('hidden');
+        } else {
+            card.setAttribute('hidden', true);
+        }
+    });
+}
