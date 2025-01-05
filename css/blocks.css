@@ -7,7 +7,7 @@ body {
     font-weight: 400;
     font-style: normal;
     text-rendering: optimizeSpeed;
-    /* ?!?! custom mouse cursor breaks app in chrome and edge? */
+    /* ?!?! custom mouse cursor breaks the app? */
     /* cursor: url('../assets/chalk-2.png'), auto; */
 }
 
@@ -157,7 +157,7 @@ main {
         }
 
         & .topics {
-            padding-inline: 1rem;
+            padding: 0 1rem 1rem;
             text-align: right;
             list-style-type: none;
 

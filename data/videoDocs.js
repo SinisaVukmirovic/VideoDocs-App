@@ -185,7 +185,7 @@ const videoDocsData = [
     },
     {
         videoUrl: 'https://www.youtube.com/watch?v=qZv-rNx0jEA',
-        topic: 'flex',
+        topic: 'flexbox',
         author: 'Colt Steele',
         title: 'The Ultimate CSS3 Flexbox Tutorial',
         duration: '50m'
@@ -216,7 +216,7 @@ const videoDocsData = [
         topic: 'grid',
         author: 'Wes Bos',
         title: 'CSS Grid',
-        duration: '28m'
+        duration: '3h 38m'
     },
     {
         videoUrl: 'https://www.youtube.com/playlist?list=PL4cUxeGkcC9gUxtblNUahcsg0WLxmrK_y',
@@ -245,5 +245,68 @@ const videoDocsData = [
         author: 'Wes Bos',
         title: 'CSS Grid in 45 Minutes!',
         duration: '45m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=705XCEruZFs',
+        topic: 'grid',
+        author: 'Fireship',
+        title: 'The Joy of CSS Grid - Build 3 Beautifully Simple Responsive Layouts',
+        duration: '12m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=Oi9z5gfIHJs',
+        topic: 'Astro',
+        author: 'Traversy Media',
+        title: 'Astro Crash Course',
+        duration: '1h 35m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=2WWAEftnzf0',
+        topic: 'overflow',
+        author: 'Kevin Powell',
+        title: 'A Simple Fix for Your CSS Overflow Problems',
+        duration: '3m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=ru3U8MHbFFI',
+        topic: 'height',
+        author: 'Kevin Powell',
+        title: 'Use these instead of vh',
+        duration: '6m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=JHregeIsjPQ',
+        topic: 'grid',
+        author: 'Kevin Powell',
+        title: 'Simplify your CSS with these 3 grid layout solutions',
+        duration: '7m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=pBv7igaxfQE',
+        topic: 'accessibility',
+        author: 'Coder Coder',
+        title: 'How to build an accessible hamburger menu with HTML, SCSS & JS',
+        duration: '13m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=JCoCRIiKXvI',
+        topic: 'position',
+        author: 'Wes Bos',
+        title: 'NO to absolute position, YES to CSS GRID',
+        duration: '13m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=JCoCRIiKXvI',
+        topic: 'grid',
+        author: 'Wes Bos',
+        title: 'NO to absolute position, YES to CSS GRID',
+        duration: '1m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=awNYtIAu6pI',
+        topic: 'form',
+        author: 'Kevin Powell',
+        title: 'Very small CSS tweaks for better forms',
+        duration: '4m'
     }
 ];

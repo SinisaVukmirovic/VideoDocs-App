@@ -22,11 +22,6 @@ export default function filterBySelectedTopic() {
         });
     });
 
-    // const updateStyleOfSelectedTopic = (selectedTopic) => {
-    //     topicsListElem.querySelector('.js-selected').classList.remove('js-selected');
-    //     selectedTopic.classList.add('js-selected');
-    // }
-
     // getting elems from the DOM after they've been generated
     const videoDocCards = panelElem.querySelectorAll('[data-topic]');
 

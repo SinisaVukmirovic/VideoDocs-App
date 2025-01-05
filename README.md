@@ -15,6 +15,6 @@ ___
 
 
 to do
-filter by search term
+warning msg when no topic for search term
 desktop only app overlay for smaller screens
 fonts download and implement

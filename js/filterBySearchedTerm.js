@@ -14,7 +14,6 @@ searchInputElem.addEventListener('keypress', (e) => {
     }
 });
 
-
 const filterVideoDocCards = (searchTerm) => {
     const videoDocCards = panelElem.querySelectorAll('[data-topic]');
 
@@ -22,7 +21,6 @@ const filterVideoDocCards = (searchTerm) => {
         const cardTopic = card.getAttribute('data-topic');
 
         if (cardTopic.toLowerCase().includes(searchTerm.toLowerCase())) {
-            // changing display value because hidden attribute is not working on display grid or flex elements
             card.removeAttribute('hidden');
         } else {
             card.setAttribute('hidden', true);
