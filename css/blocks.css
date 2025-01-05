@@ -138,7 +138,8 @@ main {
         }
 
         & .warning-msg {
-            color: lime;
+            color: var(--app-clr);
+            font-size: 1.5rem;
         }
     }
 

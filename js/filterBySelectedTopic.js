@@ -7,6 +7,7 @@ export default function filterBySelectedTopic() {
 
     topics.forEach(topic => {
         topic.addEventListener('click', (e) => {
+
             updateStyleOfSelectedTopic(e.target);
             searchInputElem.value = '';
 
@@ -27,6 +28,13 @@ export default function filterBySelectedTopic() {
     const videoDocCards = panelElem.querySelectorAll('[data-topic]');
 
     const filterVideoDocCards = (selectedTopic) => {
+
+    const warningMsgElem = document.querySelector('[data-warning]');
+
+        if (!warningMsgElem.hasAttribute('hidden')) {
+            warningMsgElem.setAttribute('hidden', true);
+        }
+
         videoDocCards.forEach(card => {
             const cardTopic = card.getAttribute('data-topic');
 

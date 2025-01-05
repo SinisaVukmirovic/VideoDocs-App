@@ -10,11 +10,12 @@ ___
 
 #### Found out that "hidden" attribute is not working on elements that are displayed as grid or flex...
 
+#### Learned about "has attribute" method [hasAttribute() method](https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttribute)
+
 ##### Trying to use custom mouse cursor crashes the app on Chrome for some reason...
 
 
 
 to do
-wng msg toggle if topic clicked after search and vice versa
 desktop only app overlay for smaller screens
 fonts download and implement
