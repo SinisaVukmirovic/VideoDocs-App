@@ -1,8 +1,11 @@
-import { panelElem, searchInputElem } from './DOMElements.js';
+import { panelElem, searchInputElem, topicsListElem } from './DOMElements.js';
 
 searchInputElem.addEventListener('keypress', (e) => {
     if (e.key === 'Enter') {
         e.preventDefault();
+
+        topicsListElem.querySelector('[aria-current]').removeAttribute('aria-current');
+        topicsListElem.querySelector('[hidden]').setAttribute('aria-current', true);
 
         const searchTerm = searchInputElem.value;
 
@@ -26,4 +29,14 @@ const filterVideoDocCards = (searchTerm) => {
             card.setAttribute('hidden', true);
         }
     });
+
+    const warningMsgElem = document.querySelector('[data-warning]');
+    const numberOfCardsNotShown = document.querySelector('[data-panel]')
+        .querySelectorAll('[hidden]');
+
+    if (videoDocCards.length - numberOfCardsNotShown.length <= 0) {
+        warningMsgElem.removeAttribute('hidden');
+    } else {
+        warningMsgElem.setAttribute('hidden', true);
+    }
 }

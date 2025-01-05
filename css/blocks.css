@@ -136,6 +136,10 @@ main {
         .video-doc-card[hidden] {
             display: none;
         }
+
+        & .warning-msg {
+            color: lime;
+        }
     }
 
     & .sidebar {

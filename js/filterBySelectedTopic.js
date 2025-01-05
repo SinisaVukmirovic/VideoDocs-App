@@ -1,4 +1,4 @@
-import { topicsListElem, panelElem } from './DOMElements.js';
+import { topicsListElem, panelElem, searchInputElem } from './DOMElements.js';
 import updateStyleOfSelectedTopic from './updateStyleOfSelectedTopic.js';
 
 export default function filterBySelectedTopic() {
@@ -8,6 +8,7 @@ export default function filterBySelectedTopic() {
     topics.forEach(topic => {
         topic.addEventListener('click', (e) => {
             updateStyleOfSelectedTopic(e.target);
+            searchInputElem.value = '';
 
             const selectedTopic = e.target.getAttribute('data-topic');
             

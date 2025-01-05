@@ -15,6 +15,6 @@ ___
 
 
 to do
-warning msg when no topic for search term
+wng msg toggle if topic clicked after search and vice versa
 desktop only app overlay for smaller screens
 fonts download and implement
