@@ -34,7 +34,8 @@ const filterVideoDocCards = (searchTerm) => {
     const numberOfCardsNotShown = document.querySelector('[data-panel]')
         .querySelectorAll('[hidden]');
 
-    if (videoDocCards.length - numberOfCardsNotShown.length <= 0) {
+    if (videoDocCards.length - numberOfCardsNotShown.length < 0) {
+        // console.log(videoDocCards.length - numberOfCardsNotShown.length);
         warningMsgElem.removeAttribute('hidden');
     } else {
         warningMsgElem.setAttribute('hidden', true);

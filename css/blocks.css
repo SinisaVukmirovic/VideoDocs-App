@@ -3,6 +3,8 @@
 body {
     min-height: 100svh;
     /* overflow: hidden; */
+    background-color: var(--bg-clr);
+    color: var(--bg-clr);
     font-family: "Titillium Web", serif;
     font-weight: 400;
     font-style: normal;
@@ -22,15 +24,27 @@ header {
     /* justify-content: center; */
 
     & h1.app-title {
+        display: flex;
+        align-items: center;
         word-spacing: -.5rem;
         font-weight: lighter;
         margin-inline: auto;
+
+        & img {
+            max-height: 2rem;
+            margin-inline: .1rem;
+        }
+
+        & span {
+            color: var(--accent-clr);
+            font-weight: bold;
+        }
     }
 
-    & h1 span {
+    /* & span {
         color: var(--accent-clr);
         font-weight: bold;
-    }
+    } */
 
     & input {
         padding: .25rem 2rem;
