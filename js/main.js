@@ -4,7 +4,7 @@ import filterBySelectedTopic from './filterBySelectedTopic.js';
 import './filterBySearchedTerm.js';
 
 // ?!?!? this breaks app after refresh in chrome too...?!
-document.body.style.cursor = `url(../assets/chalk-2.png), auto`;
+document.body.style.cursor = `url(../assets/chalk-cursor.png), auto`;
 // ...or not... now wroks a few days later...
 
 populateTopicsList();

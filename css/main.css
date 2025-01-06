@@ -38,3 +38,22 @@ a:visited {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--bg-clr); 
 }
+
+@media (width < 678px) {
+    .desktop-only {
+        display: grid;
+        place-items: center;
+        position: absolute;
+        inset: 0;
+        background-color: var(--bg-clr);
+        font-size: 5vw;
+        font-family: "Titillium Web", serif;
+        color: var(--app-clr);
+        outline-offset: -2rem;
+        outline: 2px solid var(--app-clr);
+    }
+
+    body > :not(.desktop-only) {
+        display: none;
+    }
+}
