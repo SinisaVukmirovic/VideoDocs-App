@@ -308,5 +308,26 @@ const videoDocsData = [
         author: 'Kevin Powell',
         title: 'Very small CSS tweaks for better forms',
         duration: '4m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=vQDgoQKfdzM',
+        topic: 'Media query',
+        author: 'Coder Coder',
+        title: 'How to make your website responsive',
+        duration: '39m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=IsC5-C_nuF4',
+        topic: 'Media query',
+        author: 'Coder Coder',
+        title: 'How to write media queries in CSS',
+        duration: '14m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=hkjjCnRFDug',
+        topic: 'position',
+        author: 'Coder Coder',
+        title: 'How to use CSS position to layout a website',
+        duration: '17m'
     }
 ];
