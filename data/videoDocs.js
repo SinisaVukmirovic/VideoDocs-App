@@ -329,5 +329,40 @@ const videoDocsData = [
         author: 'Coder Coder',
         title: 'How to use CSS position to layout a website',
         duration: '17m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=YktyUS1Aeo0',
+        topic: 'BEM',
+        author: 'Dmitry Mayorov',
+        title: 'Learn CSS BEM (and avoid these common mistakes)',
+        duration: '16m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=MNPdifWAAa4',
+        topic: 'BEM',
+        author: 'Dave Gray',
+        title: 'How to Organize CSS | Beginners BEM tutorial',
+        duration: '21m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=-qOe8lBAChE',
+        topic: 'grid',
+        author: 'Traversy Media',
+        title: 'CSS Grid Layout With Image Span',
+        duration: '14m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=8jP4xpga6yY',
+        topic: 'Three.js',
+        author: 'Traversy Media',
+        title: 'Getting Started With Three.js',
+        duration: '20m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=PrQeeUt49f4',
+        topic: 'GSAP',
+        author: 'DesignCourse',
+        title: 'Mastering Scroll Animations with GSAP ScrollTrigger',
+        duration: '23m'
     }
 ];
