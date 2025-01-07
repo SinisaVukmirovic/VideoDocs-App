@@ -364,5 +364,26 @@ const videoDocsData = [
         author: 'DesignCourse',
         title: 'Mastering Scroll Animations with GSAP ScrollTrigger',
         duration: '23m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=3YW65K6LcIA',
+        topic: 'flexbox',
+        author: 'Traversy Media',
+        title: 'Flexbox Crash Course 2024',
+        duration: '47m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=nu5mdN2JIwM',
+        topic: 'SASS',
+        author: 'Traversy Media',
+        title: 'Sass Crash Course',
+        duration: '48m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/playlist?list=PL4cUxeGkcC9jxJX7vojNVK-o8ubDZEcNb',
+        topic: 'SASS',
+        author: 'Net Ninja',
+        title: 'SASS Tutorial (Build Your Own CSS Library)',
+        duration: '2h 10m'
     }
 ];

@@ -5,3 +5,13 @@
     
     --header-height: 3.5rem;
 }
+
+@font-face {
+    font-family: 'display-font';
+    src: url('../font/Titillium_Web/TitilliumWeb-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'chalk-font';
+    src: url('../font/Lacquer/Lacquer-Regular.ttf');
+}
