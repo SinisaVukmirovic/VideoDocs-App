@@ -385,5 +385,68 @@ const videoDocsData = [
         author: 'Net Ninja',
         title: 'SASS Tutorial (Build Your Own CSS Library)',
         duration: '2h 10m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=JCoCRIiKXvI',
+        topic: 'Overlay',
+        author: 'Wes Bos',
+        title: 'NO to absolute position, YES to CSS GRID',
+        duration: '1m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=KeBxopnhizw',
+        topic: 'Modules',
+        author: 'freeCodeCamp.org',
+        title: 'JavaScript Modules Crash Course',
+        duration: '49m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=3ncFpP8GP4g',
+        topic: 'Pseudo Class',
+        author: 'Kevin Powell',
+        title: 'The new CSS pseudo-classes explained - :is() :where() :has()',
+        duration: '14m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=RmDh3m8b9cU',
+        topic: 'Pseudo Class',
+        author: 'Kevin Powell',
+        title: 'Do you know the difference? pseudo-classes vs pseudo-elements',
+        duration: '6m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=b64gzAvAi1A',
+        topic: 'Pseudo Class',
+        author: 'Kevin Powell',
+        title: 'Up your CSS game with these 3 pseudo-classes that nobody use',
+        duration: '9m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=OtBpgtqrjyo',
+        topic: 'Pseudo Class',
+        author: 'Web Dev Simplified',
+        title: 'Learn CSS Pseudo Elements In 8 Minutes',
+        duration: '8m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=GNmz5dYjdcQ',
+        topic: 'Pseudo Class',
+        author: 'Dave Gray',
+        title: 'CSS Pseudo-Classes vs Pseudo-Elements | Pseudo-Selectors Tutorial',
+        duration: '20m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=FMu2cKWD90g',
+        topic: 'Pseudo Class',
+        author: 'Net Ninja',
+        title: 'HTML & CSS Crash Course Tutorial #9 - Pseudo Classes & Elements',
+        duration: '17m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=FJ44qmE5odc',
+        topic: 'SVG',
+        author: 'DesignCourse',
+        title: 'wesome Scrolling SVG Line Drawing',
+        duration: '22m'
     }
 ];
