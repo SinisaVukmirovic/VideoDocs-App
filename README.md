@@ -1,23 +1,31 @@
 ## Video Docs App
 ___
 
+### VideoDocs App of YT videos on topics of your interests.
 
+### **[Live DEMO]()**
 
+![DEMO](./screenshot.png)
+___
 
+#### To customise the App with your own VideoDocs topics, just edit the "videoDocs.js" file in "data" folder. 
 
-#### had problems with set height on main element, but having the panel element displayed as grid. 
-#### grid-auto-rows seemed to fixed it [about grid auto rows](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-rows)
+![MANUAL](./manual.png)
+
+##### Where "videoURL" should be a link to the YT video or playlist of your choice
+##### "topic" should be the topic Video Doc is about and that will be displayed in the topics list
+##### "author" the YT channel name of which the video is from
+##### "title" the title of the video
+##### "duration" the duration of the YT video
+___
+
+#### had problems with set height on main element, but having the panel element displayed as grid. CSS grid-auto-rows proprerty seemed to fixed it [about grid auto rows](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-rows)
 
 #### Shuffling functionality [More about Shuffling](https://www.freecodecamp.org/news/how-to-shuffle-an-array-of-items-using-javascript-or-typescript/)
 
 #### Found out that "hidden" attribute is not working on elements that are displayed as grid or flex...
 
-#### Learned about "has attribute" method [hasAttribute() method](https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttribute)
+#### Learned about "has attribute" method in JS [hasAttribute() method](https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttribute)
 
 ##### Trying to use custom mouse cursor crashes the app on Chrome for some reason...
-##### UPDATE: started working a few days later by spplying that propert through JS
-
-
-
-to do
-fonts download and implement
+##### UPDATE: started working a few days later by spplying that property through JS
