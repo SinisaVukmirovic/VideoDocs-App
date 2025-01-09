@@ -3,7 +3,7 @@ ___
 
 ### VideoDocs App, leading to YT videos on topics of your interests.
 
-### **[Live DEMO]()**
+### **[Live DEMO](https://sinisavukmirovic.github.io/VideoDocs-App/)**
 
 ![DEMO](./screenshot.png)
 ___
