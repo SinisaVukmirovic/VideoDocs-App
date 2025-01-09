@@ -1,7 +1,7 @@
 ## Video Docs App
 ___
 
-### VideoDocs App of YT videos on topics of your interests.
+### VideoDocs App, leading to YT videos on topics of your interests.
 
 ### **[Live DEMO]()**
 
@@ -19,7 +19,7 @@ ___
 ##### "duration" the duration of the YT video
 ___
 
-#### had problems with set height on main element, but having the panel element displayed as grid. CSS grid-auto-rows proprerty seemed to fixed it [about grid auto rows](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-rows)
+#### Had problems with set height on main element, but having the panel element displayed as grid. CSS "grid-auto-rows" proprerty seemed to fixed it [about grid auto rows](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-rows)
 
 #### Shuffling functionality [More about Shuffling](https://www.freecodecamp.org/news/how-to-shuffle-an-array-of-items-using-javascript-or-typescript/)
 
