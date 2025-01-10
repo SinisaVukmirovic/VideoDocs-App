@@ -462,5 +462,19 @@ const videoDocsData = [
         author: 'Web Dev Simplified',
         title: 'The Only Accessibility Video You Will Ever Need',
         duration: '38m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=apdD69J4bEc',
+        topic: 'Pseudo class',
+        author: 'Kevin Powell',
+        title: 'Quick guide to CSS focus states',
+        duration: '7m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=dAOGdIOcLps&t=29s',
+        topic: 'Pseudo class',
+        author: 'Web Dev Simplified',
+        title: 'I Love This CSS Focus Hack',
+        duration: '6m'
     }
 ];
