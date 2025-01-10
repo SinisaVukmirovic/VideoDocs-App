@@ -135,8 +135,7 @@ main {
                 }
             }
         }
-        .video-doc-card:hover,
-        .video-doc-card:focus {
+        .video-doc-card:hover {
             /* scale: 1.03; */
             box-shadow: unset;
         }

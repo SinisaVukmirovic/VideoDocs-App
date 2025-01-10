@@ -476,5 +476,12 @@ const videoDocsData = [
         author: 'Web Dev Simplified',
         title: 'I Love This CSS Focus Hack',
         duration: '6m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=LU_QkpvuyYk',
+        topic: 'Recursion',
+        author: 'dcode',
+        title: "I'll Teach You Recursion in 15 Minutes",
+        duration: '15m'
     }
 ];
