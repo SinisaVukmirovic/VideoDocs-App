@@ -27,5 +27,4 @@ ___
 
 #### Learned about "has attribute" method in JS [hasAttribute() method](https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttribute)
 
-##### Trying to use custom mouse cursor crashes the app on Chrome for some reason...
-##### UPDATE: started working a few days later by spplying that property through JS
+##### Trying to use custom mouse cursor crashes the app on Chrome for some reason... UPDATE: started working a few days later by spplying that property through JS NEW UPDATE: doesn't work when hosted on GH pages?! Image not getting loaded...?!

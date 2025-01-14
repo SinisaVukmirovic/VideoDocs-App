@@ -483,5 +483,75 @@ const videoDocsData = [
         author: 'dcode',
         title: "I'll Teach You Recursion in 15 Minutes",
         duration: '15m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=86nTToBm2uQ',
+        topic: 'position',
+        author: 'Kevin Powell',
+        title: 'Stop fighting with CSS positioning',
+        duration: '22m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=Zddz_R1RnfM',
+        topic: 'Container query',
+        author: 'Kevin Powell',
+        title: 'Subgrid & Container Queries change how we can create layouts',
+        duration: '21m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=Zddz_R1RnfM',
+        topic: 'subgrid',
+        author: 'Kevin Powell',
+        title: 'Subgrid & Container Queries change how we can create layouts',
+        duration: '21m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=72pUm4tQesw',
+        topic: 'overflow',
+        author: 'Kevin Powell',
+        title: '2 better alternatives to overflow: hidden',
+        duration: '11m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=PkFuytYVqI8',
+        topic: 'CSS Scope',
+        author: 'Kevin Powell',
+        title: 'Naming things just got easier thanks to @scope',
+        duration: '26m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=iLJeGqPVNCY',
+        topic: 'ES6, ES7, ES8',
+        author: 'Dylan Israel',
+        title: 'TLDR: Modern JavaScript | ES6, ES7 & ES8',
+        duration: '51m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=CHyPGSpIhSs',
+        topic: 'CSS Specificity',
+        author: 'Web Dev Simplified',
+        title: 'Learn CSS Specificity In 11 Minutes',
+        duration: '11m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=c0kfcP_nD9E',
+        topic: 'CSS Specificity',
+        author: 'Kevin Powell',
+        title: 'CSS Specificity explained',
+        duration: '13m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=5Jpu2YrqzN0',
+        topic: 'CSS Specificity',
+        author: 'Colt Steele',
+        title: 'CSS Specificity: What You Need To Know',
+        duration: '12m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=8327_1PINWI',
+        topic: 'grid',
+        author: 'Wes Bos',
+        title: 'Stop using position absolute — use CSS Grid stacking!',
+        duration: '5m'
     }
 ];

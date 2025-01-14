@@ -5,7 +5,12 @@ import './filterBySearchedTerm.js';
 
 // ?!?!? this breaks app after refresh in chrome too...?!
 document.body.style.cursor = `url(../assets/chalk-cursor.png), auto`;
-// ...or not... now wroks a few days later...
+// ...or not... now works a few days later...
+// Does not work when hoasted, png img didnot get loaded?!
+// trying these paths
+document.body.style.cursor = `url(./assets/chalk-cursor.png), auto`;
+document.body.style.cursor = `url(assets/chalk-cursor.png), auto`;
+
 
 populateTopicsList();
 populateVideoDocsPanel();
