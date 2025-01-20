@@ -553,5 +553,75 @@ const videoDocsData = [
         author: 'Wes Bos',
         title: 'Stop using position absolute — use CSS Grid stacking!',
         duration: '5m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=jfMHA8SqUL4',
+        topic: 'SASS',
+        author: 'Coder Coder',
+        title: 'Sass and BEM for beginners',
+        duration: '3h 45m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=_PPWWRV6gbA',
+        topic: 'MarkDown',
+        author: 'Web Dev Simplified',
+        title: 'The Only Markdown Crash Course You Will Ever Need',
+        duration: '22m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=OGJvhpoE8b4',
+        topic: 'Pseudo Class',
+        author: 'Kevin Powell',
+        title: ':has() opens up new possibilities with CSS',
+        duration: '14m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=jJcO-IZJalQ',
+        topic: 'Pseudo Class',
+        author: 'Kevin Powell',
+        title: 'Mastering :has() to Expand Your CSS Skills',
+        duration: '16m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=Op3hhQhNKIc',
+        topic: 'Media query',
+        author: 'Web Dev Simplified',
+        title: 'Stop Using Pixels For Media Queries',
+        duration: '19m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=47SPG8TvUXA',
+        topic: 'Closure',
+        author: 'Web Dev Simplified',
+        title: 'Learn Closures In 13 Minutes',
+        duration: '13m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=SQP9VV5b9IM',
+        topic: 'Scope',
+        author: 'Web Dev Simplified',
+        title: 'If You Cannot Name All 5 JS Scopes You Need To Watch This Video',
+        duration: '15m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=cRHQNNcYf6s',
+        topic: 'Modules',
+        author: 'Web Dev Simplified',
+        title: 'JavaScript ES6 Modules',
+        duration: '8m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=vA5TTz6BXhY',
+        topic: 'GIT',
+        author: 'Traversy Media',
+        title: 'Git & GitHub Crash Course 2025',
+        duration: '49m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/playlist?list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR',
+        topic: 'GIT',
+        author: 'Net Ninja',
+        title: 'Git & GitHub Tutorial for Beginners',
+        duration: '1h 50m'
     }
 ];
