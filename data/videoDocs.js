@@ -570,14 +570,14 @@ const videoDocsData = [
     },
     {
         videoUrl: 'https://www.youtube.com/watch?v=OGJvhpoE8b4',
-        topic: 'Pseudo Class',
+        topic: 'Pseudo class',
         author: 'Kevin Powell',
         title: ':has() opens up new possibilities with CSS',
         duration: '14m'
     },
     {
         videoUrl: 'https://www.youtube.com/watch?v=jJcO-IZJalQ',
-        topic: 'Pseudo Class',
+        topic: 'Pseudo class',
         author: 'Kevin Powell',
         title: 'Mastering :has() to Expand Your CSS Skills',
         duration: '16m'
