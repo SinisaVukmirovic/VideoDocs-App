@@ -59,7 +59,7 @@ const videoDocsData = [
     },
     {
         videoUrl: 'https://www.youtube.com/watch?v=2rlWBZ17Wes',
-        topic: 'Container query',
+        topic: 'Container Query',
         author: 'Kevin Powell',
         title: 'Learn how to use Media queries & Container queries',
         duration: '35m'
@@ -199,7 +199,7 @@ const videoDocsData = [
     },
     {
         videoUrl: 'https://www.youtube.com/watch?v=DHj7JhH8ins',
-        topic: 'Container query',
+        topic: 'Container Query',
         author: 'Kevin Powell',
         title: '"Smart" design patterns with container queries',
         duration: '15m'
@@ -402,42 +402,42 @@ const videoDocsData = [
     },
     {
         videoUrl: 'https://www.youtube.com/watch?v=3ncFpP8GP4g',
-        topic: 'Pseudo class',
+        topic: 'Pseudo ...',
         author: 'Kevin Powell',
         title: 'The new CSS pseudo-classes explained - :is() :where() :has()',
         duration: '14m'
     },
     {
         videoUrl: 'https://www.youtube.com/watch?v=RmDh3m8b9cU',
-        topic: 'Pseudo class',
+        topic: 'Pseudo ...',
         author: 'Kevin Powell',
         title: 'Do you know the difference? pseudo-classes vs pseudo-elements',
         duration: '6m'
     },
     {
         videoUrl: 'https://www.youtube.com/watch?v=b64gzAvAi1A',
-        topic: 'Pseudo class',
+        topic: 'Pseudo ...',
         author: 'Kevin Powell',
         title: 'Up your CSS game with these 3 pseudo-classes that nobody use',
         duration: '9m'
     },
     {
         videoUrl: 'https://www.youtube.com/watch?v=OtBpgtqrjyo',
-        topic: 'Pseudo class',
+        topic: 'Pseudo ...',
         author: 'Web Dev Simplified',
         title: 'Learn CSS Pseudo Elements In 8 Minutes',
         duration: '8m'
     },
     {
         videoUrl: 'https://www.youtube.com/watch?v=GNmz5dYjdcQ',
-        topic: 'Pseudo class',
+        topic: 'Pseudo ...',
         author: 'Dave Gray',
         title: 'CSS Pseudo-Classes vs Pseudo-Elements | Pseudo-Selectors Tutorial',
         duration: '20m'
     },
     {
         videoUrl: 'https://www.youtube.com/watch?v=FMu2cKWD90g',
-        topic: 'Pseudo class',
+        topic: 'Pseudo ...',
         author: 'Net Ninja',
         title: 'HTML & CSS Crash Course Tutorial #9 - Pseudo Classes & Elements',
         duration: '17m'
@@ -451,7 +451,7 @@ const videoDocsData = [
     },
     {
         videoUrl: 'https://www.youtube.com/watch?v=QFjqxVMwIl8',
-        topic: 'Pseudo class',
+        topic: 'Pseudo ...',
         author: 'Kevin Powell',
         title: 'Three fun uses for ::before and ::after',
         duration: '12m'
@@ -465,14 +465,14 @@ const videoDocsData = [
     },
     {
         videoUrl: 'https://www.youtube.com/watch?v=apdD69J4bEc',
-        topic: 'Pseudo class',
+        topic: 'Pseudo ...',
         author: 'Kevin Powell',
         title: 'Quick guide to CSS focus states',
         duration: '7m'
     },
     {
         videoUrl: 'https://www.youtube.com/watch?v=dAOGdIOcLps&t=29s',
-        topic: 'Pseudo class',
+        topic: 'Pseudo ...',
         author: 'Web Dev Simplified',
         title: 'I Love This CSS Focus Hack',
         duration: '6m'
@@ -493,7 +493,7 @@ const videoDocsData = [
     },
     {
         videoUrl: 'https://www.youtube.com/watch?v=Zddz_R1RnfM',
-        topic: 'Container query',
+        topic: 'Container Query',
         author: 'Kevin Powell',
         title: 'Subgrid & Container Queries change how we can create layouts',
         duration: '21m'
@@ -570,14 +570,14 @@ const videoDocsData = [
     },
     {
         videoUrl: 'https://www.youtube.com/watch?v=OGJvhpoE8b4',
-        topic: 'Pseudo class',
+        topic: 'Pseudo ...',
         author: 'Kevin Powell',
         title: ':has() opens up new possibilities with CSS',
         duration: '14m'
     },
     {
         videoUrl: 'https://www.youtube.com/watch?v=jJcO-IZJalQ',
-        topic: 'Pseudo class',
+        topic: 'Pseudo ...',
         author: 'Kevin Powell',
         title: 'Mastering :has() to Expand Your CSS Skills',
         duration: '16m'
@@ -623,5 +623,26 @@ const videoDocsData = [
         author: 'Net Ninja',
         title: 'Git & GitHub Tutorial for Beginners',
         duration: '1h 50m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=3_-Je5XpbqY',
+        topic: 'Container Query',
+        author: 'Kevin Powell',
+        title: 'Container Queries are going to change how we make layouts',
+        duration: '24m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=cMWnIX3ukLI',
+        topic: 'grid',
+        author: 'Kevin Powell',
+        title: 'The Explicit and Implicit grid explained',
+        duration: '21m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=TxtvkKe20Rs',
+        topic: 'Container Query',
+        author: 'Coding in Public',
+        title: 'Introduction to Container Queries',
+        duration: '6m'
     }
 ];
