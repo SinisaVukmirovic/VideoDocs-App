@@ -206,7 +206,7 @@ const videoDocsData = [
     },
     {
         videoUrl: 'https://www.youtube.com/playlist?list=PL4cUxeGkcC9jS4SctqK83Ag58a0_UEcE_',
-        topic: 'Cascade layers',
+        topic: 'CSS Layers',
         author: 'Net Ninja',
         title: 'CSS Cascade Layers',
         duration: '28m'
@@ -644,5 +644,47 @@ const videoDocsData = [
         author: 'Coding in Public',
         title: 'Introduction to Container Queries',
         duration: '6m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=j68WvpUX41c',
+        topic: 'Pseudo ...',
+        author: 'Kevin Powell',
+        title: 'Use this instead of :focus (most of the time)',
+        duration: '8m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=l1mER1bV0N0',
+        topic: 'CSS Selector',
+        author: 'Web Dev Simplified',
+        title: 'Learn Every CSS Selector In 20 Minutes',
+        duration: '20m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=bj0Z_GncIwY',
+        topic: 'grid',
+        author: 'Kevin Powell',
+        title: 'Breakpoint-Free CSS Grid Layouts',
+        duration: '11m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=-sF5KsEo6gM',
+        topic: 'height',
+        author: 'Web Dev Simplified',
+        title: 'Are You Making These CSS Height Mistakes?',
+        duration: '9m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=Pr1PezCc4FU',
+        topic: 'CSS Layers',
+        author: 'Web Dev Simplified',
+        title: 'CSS Layers Are Changing How Specificity Works',
+        duration: '14m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=NDNRGW-_1EE',
+        topic: 'CSS Layers',
+        author: 'Kevin Powell',
+        title: 'No more specificity issues?! - A look at CSS Cascade Layers',
+        duration: '18m'
     }
 ];
