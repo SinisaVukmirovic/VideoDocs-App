@@ -52,7 +52,7 @@ const videoDocsData = [
     },
     {
         videoUrl: 'https://www.youtube.com/watch?v=2rlWBZ17Wes',
-        topic: 'Media query',
+        topic: 'Media Query',
         author: 'Kevin Powell',
         title: 'Learn how to use Media queries & Container queries',
         duration: '35m'
@@ -66,9 +66,9 @@ const videoDocsData = [
     },
     {
         videoUrl: 'https://www.youtube.com/watch?v=SpfTjCy_PKM',
-        topic: 'Media query',
+        topic: 'Media Query',
         author: 'IFace',
-        title: 'Each Media Query in CSS You MUST Know',
+        title: 'Each Media query in CSS You MUST Know',
         duration: '5m'
     },
     {
@@ -311,14 +311,14 @@ const videoDocsData = [
     },
     {
         videoUrl: 'https://www.youtube.com/watch?v=vQDgoQKfdzM',
-        topic: 'Media query',
+        topic: 'Media Query',
         author: 'Coder Coder',
         title: 'How to make your website responsive',
         duration: '39m'
     },
     {
         videoUrl: 'https://www.youtube.com/watch?v=IsC5-C_nuF4',
-        topic: 'Media query',
+        topic: 'Media Query',
         author: 'Coder Coder',
         title: 'How to write media queries in CSS',
         duration: '14m'
@@ -584,7 +584,7 @@ const videoDocsData = [
     },
     {
         videoUrl: 'https://www.youtube.com/watch?v=Op3hhQhNKIc',
-        topic: 'Media query',
+        topic: 'Media Query',
         author: 'Web Dev Simplified',
         title: 'Stop Using Pixels For Media Queries',
         duration: '19m'
@@ -686,5 +686,19 @@ const videoDocsData = [
         author: 'Kevin Powell',
         title: 'No more specificity issues?! - A look at CSS Cascade Layers',
         duration: '18m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=6xzulGrFGO8',
+        topic: 'Media Query',
+        author: 'Optimistic Web',
+        title: 'Kickstart Your Responsive Web Design Journey with CSS Media Queries',
+        duration: '10m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=1CYx7Y_qYKA',
+        topic: 'Container Query',
+        author: 'Optimistic Web',
+        title: 'CSS Container Queries Are Changing Responsive Web Layouts Forever!',
+        duration: '12m'
     }
 ];
