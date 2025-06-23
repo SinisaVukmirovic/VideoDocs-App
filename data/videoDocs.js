@@ -700,5 +700,82 @@ const videoDocsData = [
         author: 'Optimistic Web',
         title: 'CSS Container Queries Are Changing Responsive Web Layouts Forever!',
         duration: '12m'
-    }
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=hkdc_qBgXDc',
+        topic: 'subgrid',
+        author: 'Optimistic Web',
+        title: 'Simple CSS SUBGRID Tricks to Solve Real-Life Layout Challenges',
+        duration: '10m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=87C9RnH-mY0',
+        topic: 'Pseudo ...',
+        author: 'Optimistic Web',
+        title: 'Take Your CSS to the Next Level with :has() Pseudo-Class Selector',
+        duration: '7m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=UwV4LtO0nHo',
+        topic: 'subgrid',
+        author: 'Kevin Powell',
+        title: 'Creating a robust grid system using subgrid',
+        duration: '36m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=McC4QkCvbaY',
+        topic: 'Pseudo ...',
+        author: 'Kevin Powell',
+        title: 'How you can simplify your CSS with :is()',
+        duration: '9m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=6l24PIccgqU',
+        topic: 'grid',
+        author: 'Coder Coder',
+        title: 'How to make full bleed wrappers with CSS grid',
+        duration: '40m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=0xMQfnTU6oo',
+        topic: 'grid',
+        author: 'Traversy Media',
+        title: 'CSS Grid Crash Course',
+        duration: '54m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=31CyquY8RNE',
+        topic: 'Svelte',
+        author: 'Ben Davis',
+        title: 'Svelte 5 Is Like React, But Better',
+        duration: '20m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/playlist?list=PLoqZcxvpWzzeRlC4DBL3_-dJNK98V3NeE',
+        topic: 'Astro',
+        author: 'Coding in Public',
+        title: 'Learn Astro Course',
+        duration: '50m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=8DQailPy3q8',
+        topic: 'Svelte',
+        author: 'Syntax',
+        title: 'Svelte 5 Basics - Complete Svelte 5 Course for Beginners',
+        duration: '1h 50m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=WP5CC5yawfs',
+        topic: 'Style Query',
+        author: 'Kevin Powell',
+        title: 'Getting started with CSS Style Queries',
+        duration: '18m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=sEcjwfQhbCs',
+        topic: 'Pseudo ...',
+        author: 'Kevin Powell',
+        title: 'Seems that not enough people know about these pseudo-elements',
+        duration: '8m'
+    }    
 ];
