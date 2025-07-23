@@ -12,7 +12,7 @@ export default function filterBySelectedTopic() {
             searchInputElem.value = '';
 
             const selectedTopic = e.target.getAttribute('data-topic');
-            
+
             // filterVideoDocCards(selectedTopic);
 
             // Fallback for browsers that don't support view transitions:
@@ -29,7 +29,7 @@ export default function filterBySelectedTopic() {
 
     const filterVideoDocCards = (selectedTopic) => {
 
-    const warningMsgElem = document.querySelector('[data-warning]');
+        const warningMsgElem = document.querySelector('[data-warning]');
 
         if (!warningMsgElem.hasAttribute('hidden')) {
             warningMsgElem.setAttribute('hidden', true);

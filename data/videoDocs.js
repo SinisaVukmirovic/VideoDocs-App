@@ -777,5 +777,19 @@ const videoDocsData = [
         author: 'Kevin Powell',
         title: 'Seems that not enough people know about these pseudo-elements',
         duration: '8m'
-    }    
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=zI6DW1Sinqc',
+        topic: 'display',
+        author: 'CSSnippets',
+        title: 'Learn CSS Display Property: Inline, Block, Inline-Block Explained in 4 Minutes!',
+        duration: '4m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=90dNru2ddJo',
+        topic: 'position',
+        author: 'CSSnippets',
+        title: 'Master CSS Position Property: Static, Relative, Absolute & More!',
+        duration: '4m'
+    }
 ];
