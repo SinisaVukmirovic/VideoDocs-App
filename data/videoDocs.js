@@ -791,5 +791,40 @@ const videoDocsData = [
         author: 'CSSnippets',
         title: 'Master CSS Position Property: Static, Relative, Absolute & More!',
         duration: '4m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=m7YDWNz65iI',
+        topic: 'Accessibility',
+        author: 'Coding2GO',
+        title: 'Build Navbar Menus That Actually Work for Everyone',
+        duration: '17m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=JP2VkfYF5HU',
+        topic: 'Accessibility',
+        author: 'Coding2GO',
+        title: 'Why you should start using ARIA Attributes in HTML',
+        duration: '5m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=3Kf03veuJnc',
+        topic: 'grid',
+        author: 'Coding2GO',
+        title: 'Grid Stacking vs Position Absolute - Which Is Best For You?',
+        duration: '4m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=3Kf03veuJnc',
+        topic: 'position',
+        author: 'Coding2GO',
+        title: 'Grid Stacking vs Position Absolute - Which Is Best For You?',
+        duration: '4m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=-pQZLQakz-c',
+        topic: 'Pseudo ...',
+        author: 'Coding2GO',
+        title: 'Learn CSS :not() and :has() selector in 6 Minutes',
+        duration: '6m'
     }
 ];
