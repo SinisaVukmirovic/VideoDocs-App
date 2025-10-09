@@ -826,5 +826,19 @@ const videoDocsData = [
         author: 'Coding2GO',
         title: 'Learn CSS :not() and :has() selector in 6 Minutes',
         duration: '6m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=JYfiaSKeYhE',
+        topic: 'grid',
+        author: 'Coding2GO',
+        title: 'Every CSS Grid Concept Explained in 20 Minutes',
+        duration: '21m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=BRGnXvLDgLw',
+        topic: 'CSS transform',
+        author: 'CSSnippets',
+        title: 'Master Hidden CSS Transform Properties for Stunning 3D Effects',
+        duration: '6m'
     }
 ];
