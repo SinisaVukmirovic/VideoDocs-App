@@ -836,9 +836,16 @@ const videoDocsData = [
     },
     {
         videoUrl: 'https://www.youtube.com/watch?v=BRGnXvLDgLw',
-        topic: 'CSS transform',
+        topic: 'CSS Transform',
         author: 'CSSnippets',
         title: 'Master Hidden CSS Transform Properties for Stunning 3D Effects',
         duration: '6m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=ZSQuEAVEHGs',
+        topic: 'CSS Transform',
+        author: 'CSSnippets',
+        title: 'Master CSS Transform Property: Rotate, Scale, Translate & Skew Tutorial',
+        duration: '7m'
     }
 ];
