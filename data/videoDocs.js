@@ -847,5 +847,12 @@ const videoDocsData = [
         author: 'CSSnippets',
         title: 'Master CSS Transform Property: Rotate, Scale, Translate & Skew Tutorial',
         duration: '7m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/playlist?list=PL4cUxeGkcC9j2pbmcA93DR1A3m7VEgSxK',
+        topic: 'GIT',
+        author: 'Net Ninja',
+        title: 'Git Crash Course',
+        duration: '1h 50m'
     }
 ];
