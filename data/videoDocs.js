@@ -854,5 +854,26 @@ const videoDocsData = [
         author: 'Net Ninja',
         title: 'Git Crash Course',
         duration: '1h 50m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=APxt2mKOsss',
+        topic: 'subgrid',
+        author: 'Coding2GO',
+        title: 'Learn CSS Subgrid in 4 Minutes',
+        duration: '4m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=JYfiaSKeYhE',
+        topic: 'grid',
+        author: 'Coding2GO',
+        title: "CSS Grid Course - The Only Grid Tutorial You'll Ever Need!",
+        duration: '21m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=JYfiaSKeYhE',
+        topic: 'grid',
+        author: 'Coding2GO',
+        title: "CSS Grid Course - The Only Grid Tutorial You'll Ever Need!",
+        duration: '21m'
     }
 ];
