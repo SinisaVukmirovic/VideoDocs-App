@@ -875,5 +875,19 @@ const videoDocsData = [
         author: 'Coding2GO',
         title: "CSS Grid Course - The Only Grid Tutorial You'll Ever Need!",
         duration: '21m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=aEj6k-gi9-s',
+        topic: 'grid',
+        author: 'Coding2GO',
+        title: "CSS Flexbox vs Grid - Are you using them right?",
+        duration: '8m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=aEj6k-gi9-s',
+        topic: 'flexbox',
+        author: 'Coding2GO',
+        title: "CSS Flexbox vs Grid - Are you using them right?",
+        duration: '8m'
     }
 ];
