@@ -889,5 +889,19 @@ const videoDocsData = [
         author: 'Coding2GO',
         title: "CSS Flexbox vs Grid - Are you using them right?",
         duration: '8m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=DrtuwXh71hY',
+        topic: 'flexbox',
+        author: 'Kevin Powell',
+        title: "2 common CSS layout misconceptions",
+        duration: '20m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=7OrtUkPgHLA',
+        topic: 'grid',
+        author: 'Kevin Powell',
+        title: "Why CSS Grid feels complex, and how to keep it simple",
+        duration: '6m'
     }
 ];
