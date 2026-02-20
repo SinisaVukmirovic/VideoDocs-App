@@ -903,5 +903,33 @@ const videoDocsData = [
         author: 'Kevin Powell',
         title: "Why CSS Grid feels complex, and how to keep it simple",
         duration: '6m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/playlist?list=PLehZRc1z6b6HkfhqouM4wH4-peS7KBjP1',
+        topic: 'grid',
+        author: 'Optimistic Web',
+        title: "A Complete Guide to Mastering CSS Grid",
+        duration: '1h 26m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=Y7nhXvJ7yH8',
+        topic: 'Accessibility',
+        author: 'Web Dev Simplified',
+        title: "The Exact Checklist I Follow To Ensure 100% Accessibility",
+        duration: '21m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=yNyR_A73eTI',
+        topic: 'grid',
+        author: 'Coding2GO',
+        title: "CSS Grid & Flexbox Layout Tricks I use in Every Project",
+        duration: '12m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=yNyR_A73eTI',
+        topic: 'flexbox',
+        author: 'Coding2GO',
+        title: "CSS Grid & Flexbox Layout Tricks I use in Every Project",
+        duration: '12m'
     }
 ];
