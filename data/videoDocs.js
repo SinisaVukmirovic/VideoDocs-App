@@ -931,5 +931,54 @@ const videoDocsData = [
         author: 'Coding2GO',
         title: "CSS Grid & Flexbox Layout Tricks I use in Every Project",
         duration: '12m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=kVi9Augt7HY',
+        topic: 'Colors',
+        author: 'Coding in Public',
+        title: "Why everyone is talking about OKLCH",
+        duration: '12m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=SOIRyQEv2p8',
+        topic: 'Colors',
+        author: 'Kevin Powell',
+        title: "Using currentColor with color-mix is amazing",
+        duration: '13m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=I9zHX-jSKpA',
+        topic: 'Colors',
+        author: 'Kevin Powell',
+        title: "A deep dive into CSS color-mix()",
+        duration: '18m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=vGfTyHPWZLE',
+        topic: 'Colors',
+        author: 'Kevin Powell',
+        title: "Build smarter color systems with relative colors",
+        duration: '11m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=TI-OVY11HD4',
+        topic: 'Colors',
+        author: 'Coding2GO',
+        title: "How to Create RELATIVE Colors with hsl(from...)",
+        duration: '5m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=gPacarD9NuA',
+        topic: 'Colors',
+        author: 'Kevin Powell',
+        title: "Relative colors make so many things easier!",
+        duration: '13m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/watch?v=1NX2kmvbWFQ',
+        topic: 'Colors',
+        author: 'Academind',
+        title: "Making Sense of OKLCH() & Modern CSS Colors",
+        duration: '9m'
     }
 ];
