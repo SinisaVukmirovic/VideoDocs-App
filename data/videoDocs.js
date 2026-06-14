@@ -980,5 +980,12 @@ const videoDocsData = [
         author: 'Academind',
         title: "Making Sense of OKLCH() & Modern CSS Colors",
         duration: '9m'
+    },
+    {
+        videoUrl: 'https://www.youtube.com/playlist?list=PL4cUxeGkcC9hXL99yOeCcUrdUee8u36s3',
+        topic: 'Astro',
+        author: 'Net Ninja',
+        title: "Astro Crash Course",
+        duration: '1h 40m'
     }
 ];
